@@ -772,7 +772,7 @@ def get_LesionWiseResults(pred_file, gt_file, challenge_name, output=None):
     """
 
     # Dilation and Threshold Parameters
-    if challenge_name == 'BraTS-GLI':
+    if challenge_name == 'Fets2.0':
         dilation_factor = 3
         lesion_volume_thresh = 20
 
